@@ -1,0 +1,32 @@
+body {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue';
+}
+
+form {
+    padding-bottom: 10px;
+}
+
+div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 3rem;
+    flex-basis: auto;
+    margin-bottom: 2rem;
+}
+
+div>div {
+    border: 2px black solid;
+    width: 20rem;
+    padding: 20px;
+    height: auto;
+    display: block;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+button {
+    font-family: 'Bebas Neue';
+}
